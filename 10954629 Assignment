@@ -1,0 +1,26 @@
+// Program to find average of even numbers
+// till a given even end number.
+#include <bits/stdc++.h>
+using namespace std;
+
+// Function to calculate the average
+// of even numbers
+int averageEven(int n)
+{
+ if (n % 2 != 0) {
+  cout<<"Invalid Input";
+  return -1;
+ }
+
+ return (n + 2) / 2;
+}
+
+// driver function
+int main()
+{
+ int n = 16;
+ cout<<averageEven(n)<<endl;
+ return 0;
+}
+
+// This code is contributed by noob2000.
